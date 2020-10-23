@@ -4,6 +4,7 @@ RUN apt update -y && \
     apt install -y tzdata && \
     ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 RUN apt install -y apache2 \
+    cron \
     curl \
     git \
     htop \
